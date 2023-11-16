@@ -1,6 +1,6 @@
-#include "MainWindow.h"
 #include <QVBoxLayout>
 #include <QHostAddress>
+#include "Mainwindow.h"
 
 MainWindow::MainWindow(quint16 serverPort, quint16 clientPort, QWidget *parent)
     : QMainWindow(parent) {

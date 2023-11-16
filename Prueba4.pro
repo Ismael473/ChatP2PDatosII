@@ -10,17 +10,17 @@ CONFIG += c++17
 
 SOURCES += \
     Cliente.cpp \
+    Mainwindow.cpp \
     ServidorP2P.cpp \
-    main.cpp \
-    mainwindow.cpp
+    main.cpp
 
 HEADERS += \
     Cliente.h \
-    ServidorP2P.h \
-    mainwindow.h
+    Mainwindow.h \
+    ServidorP2P.h
 
 FORMS += \
-    mainwindow.ui
+    Mainwindow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
